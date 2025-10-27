@@ -1,6 +1,8 @@
-Dockerfile which creates runtime env for Gemini-CLI  
-Bash script containing Gemini-CLI commands: pcp-archive-script.sh  
-Analyzes PCP-Archive.json results file to complete these Tasks:
+Dockerfile which creates runtime env for Gemini-CLI and executes 'test-PCParchive-script.sh'  
+test-PCParchive-script.sh: Bash script containing Gemini-CLI commands    
+PCP-Archive.json results file, produced with 'pcp2json' export utility  
+
+Completes these Tasks:  
 1) Produce succinct summary of Performance Co-Pilot
 2) Creates a graph of select metrics in PCP-Archive.json file
 3) Creates a Grafana Dashboard which displays select metrics
