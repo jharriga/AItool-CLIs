@@ -1,6 +1,6 @@
 Dockerfile which creates runtime env for Gemini-CLI and executes 'test-PCParchive-script.sh'  
 test-PCParchive-script.sh: Bash script containing Gemini-CLI commands    
-PCP-Archive.json results file, produced with 'pcp2json' export utility  
+PCParchive.json results file, produced with 'pcp2json' export utility  
 
 Completes these Tasks:  
 1) Produce succinct summary of Performance Co-Pilot
