@@ -11,4 +11,4 @@ Completes these Tasks:
 sut# podman build -t gemini-pcp-archive-test -f Dockerfile  
 Successfully tagged localhost/gemini-pcp-archive-test:latest  
 
-sut# podman run --rm -e GEMINI_API_KEY="<API-KEY>" gemini-pcp-archive-test  
+sut# podman run --rm -e GEMINI_API_KEY="API-KEY" gemini-pcp-archive-test  
