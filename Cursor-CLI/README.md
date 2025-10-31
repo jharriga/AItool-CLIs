@@ -5,8 +5,8 @@ Uses cursor-agent in scripting mode to perform thesee steps:
 3) echo 'Done'  
 
 # Usage
-$ chmod 755 example-cursor-agent.sh  
-$ ./example-cursor-agent.sh  
+$ chmod 755 example_cursor_agent.sh  
+$ ./example_cursor_agent.sh  
 
 # Console output
 Created a Dockerfile that:
